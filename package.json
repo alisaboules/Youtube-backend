@@ -1,12 +1,7 @@
 {
   "name": "red-video-backend",
   "version": "0.0.1",
-  "description": "htmllessons.io",
-  "author": {
-    "email": "info@htmllessons.io",
-    "name": "Max Shushval (htmllessons.io)",
-    "url": "https://htmllessons.io"
-  },
+  "description": "Youtube",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -16,7 +11,7 @@
     "start": "nest start",
     "start:dev": "nest start --watch",
     "debug": "nest start --debug --watch",
-    "prod": "node dist/main",
+    "prod": "node dist/src/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
