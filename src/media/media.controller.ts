@@ -32,10 +32,23 @@ export class MediaController {
 		return this.mediaService.saveMedia(mediaFile, folder)
 	}
 
+	// @Get('status/:fileName')
+	// @Auth()
+	// async getProcessingStatus(@Param('fileName') fileName: string) {
+	// 	const status = this.mediaService.getProcessingStatus(fileName)
+	// 	return { fileName, status }
+	// }
 	@Get('status/:fileName')
-	@Auth()
-	async getProcessingStatus(@Param('fileName') fileName: string) {
-		const status = this.mediaService.getProcessingStatus(fileName)
-		return { fileName, status }
+@Auth()
+async getProcessingStatus(
+	@Param('fileName') fileName: string
+) {
+	const processingInfo =
+		this.mediaService.getProcessingStatus(fileName)
+
+	return {
+		fileName,
+		...processingInfo
 	}
+}
 }
