@@ -50,9 +50,9 @@ export class AuthService {
 		})
 		
 		await this.emailService.sendVerification(
-			user.email,
-			`http://localhost:4200/verify-email?token=${verificationToken}`
-		)
+  user.email,
+  `${process.env.BACKEND_URL}/verify-email?token=${verificationToken}`
+)
 
 		return this.buildResponseObject(user)
 	}
