@@ -119,6 +119,11 @@ export class MediaService {
 				status: 0
 			})
 
+			console.log('Видео загружено');
+			console.log('Имя:', uniqueFileName);
+			console.log('Временный файл:', tempPath);
+			console.log('Запускаем FFmpeg...');
+
 			this.processVideo(tempPath, uniqueFileName)
 				.then(async () => {
 					await remove(tempPath)
