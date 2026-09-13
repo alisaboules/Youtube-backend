@@ -51,7 +51,7 @@ export class AuthController {
 	}
 
 	@Get('verify-email')
-	@Redirect('http://localhost:3000/verified', 302)
+	@Redirect(`${process.env.FRONTEND_URL || 'http://localhost:3000'}/verified`, 302)
 	async verifyEmail(@Query('token') token?: string) {
 		if (!token) {
 			throw new UnauthorizedException('Token not passed')
