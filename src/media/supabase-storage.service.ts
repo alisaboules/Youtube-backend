@@ -7,7 +7,7 @@ export class SupabaseStorageService {
 	private readonly supabase: SupabaseClient
 
 	private readonly bucket =
-		process.env.SUPABASE_BUCKET ?? 'youtube'
+		process.env.SUPABASE_BUCKET ?? 'Youtube'
 
 	constructor() {
 		const supabaseUrl = process.env.SUPABASE_URL

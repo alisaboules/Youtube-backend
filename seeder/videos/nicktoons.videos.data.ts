@@ -1,29 +1,27 @@
 import { EnumVideoPlayerQuality } from '@/video/dto/video.types'
+import { STORAGE_URL } from 'scripts/storage'
 
 export const NICKTOONS_VIDEOS = [
   {
-		title: 'Барбоскины - 92 Серия. Пицца (новые серии)',
-		viewsCount: 26215239,
-		thumbnailUrl: '/uploads/thumbnails/barboskin.avif',
-		slug: 'barboskinpMPo_huyY4o',
-		videoFileName: 'barboskin.mp4',
+		title: 'Зверская красота | Monster High',
+		viewsCount: 128174,
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/monster.webp`,
+		slug: 'monsternpMPo_huyY4o',
+		videoFileName: 'monster.mp4',
 		maxResolution: EnumVideoPlayerQuality['2K'],
 		description:
-			'<p>Сегодня на ужин – пицца, и приготовит ее …Лиза! Это почти катастрофа, считают Роза, Дружок и Гена, ведь Лиза – неопытный кулинар. Ребята берутся помочь Лизе. Но чтобы сестра не обижалась, она не должна об этом знать.</p><p>Наш канал: <a href="https://www.youtube.com/user/barboskinyonline" target="_blank">barboskinyonline</a></p><p>Наш сайт: <a href="http://barboskiny.ru/" target="_blank">http://barboskiny.ru/</a></p><p>Мы в Контакте: <a href="http://vk.com/barboskiny" target="_blank">http://vk.com/barboskiny</a></p><p>Мы в Одноклассниках: <a href="http://odnoklassniki.ru/barboskiny" target="_blank">http://odnoklassniki.ru/barboskiny</a></p><p>Мы в Facebook: <a href="https://www.facebook.com/barboskiny" target="_blank">barboskiny</a></p>',
+			'<p>Watch Our Latest Videos Here! <a href="https://bit.ly/35rmCzs" target="_blank">https://bit.ly/35rmCzs</a></p><p>Громкость 1, Горячий парень: Дракулаура™ буквально не может устоять от влюбленности в самого классного парня в школе! Клео изменяет ее до полной неузнаваемости. Оставит ли это ее подруге хоть малейший шанс или окончательно погубит ситуацию?</p>',
 		channelSlug: 'nicktoons',
 		isPublic: true,
 		tags: [
-			'Барбоскины',
-			'Новыесерии',
-			'Мультик',
-			'Cartoons' 
+			'MonsterHigh', 'Electrified'
 		],
-		createdAt: '2013-07-12T14:30:00Z'
+		createdAt: '2015-08-01T14:30:00Z'
 	},
 	{
 		title: 'Странная Барби | Эпизод 52 | @BarbieRussia 3+',
 		viewsCount: 5894682,
-		thumbnailUrl: '/uploads/thumbnails/barbie.avif',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/barbie.avif`,
 		slug: 'barbieTbu5oECgPI4',
 		videoFileName: 'barbie.mp4',
 		maxResolution: EnumVideoPlayerQuality['4K'],
@@ -41,7 +39,7 @@ export const NICKTOONS_VIDEOS = [
   {
 		title: 'In a Heartbeat - Animated Short Film',
 		viewsCount: 51971294,
-		thumbnailUrl: '/uploads/thumbnails/gays.avif',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/gays.avif`,
 		slug: 'gays99u5oECgPI4',
 		videoFileName: 'gays.mp4',
 		maxResolution: EnumVideoPlayerQuality['480p'],

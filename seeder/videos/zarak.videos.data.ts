@@ -1,11 +1,12 @@
 import { EnumVideoPlayerQuality } from '@/video/dto/video.types'
+import { STORAGE_URL } from 'scripts/storage'
 
 export const ZARAK_VIDEOS = [
 	{
 		title:
 			'FED UP',
 		viewsCount: 20063,
-		thumbnailUrl: '/uploads/thumbnails/fedup.avif',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/fedup.avif`,
 		slug: 'FED-UP7K_0NRLCu4',
 		videoFileName: 'fedup.mp4',
 		maxResolution: EnumVideoPlayerQuality['2K'],
@@ -22,7 +23,7 @@ export const ZARAK_VIDEOS = [
 	{
 		title: 'Decisions of Torment',
 		viewsCount: 4229619,
-		thumbnailUrl: '/uploads/thumbnails/decisions.avif',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/decisions.avif`,
 		slug: 'decisionsh33594a6af3f',
 		videoFileName: 'decisions.mp4',
 		maxResolution: EnumVideoPlayerQuality['1080p'],

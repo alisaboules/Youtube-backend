@@ -1,10 +1,11 @@
 import { EnumVideoPlayerQuality } from '@/video/dto/video.types'
+import { STORAGE_URL } from 'scripts/storage'
 
 export const TOXXED_VIDEOS = [
 	{
 		title: 'Lemon Demon - Modify FAN ANIMATIONi',
 		viewsCount: 31827376,
-		thumbnailUrl: '/uploads/thumbnails/lemon.avif',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/lemon.avif`,
 		slug: 'lemonzAX6GWpG34s',
 		videoFileName: 'lemon.mp4',
 		maxResolution: EnumVideoPlayerQuality['1080p'],
@@ -22,7 +23,7 @@ export const TOXXED_VIDEOS = [
 	{
 		title: 'Mindless Self Indulgence "It Gets Worse" Lyric Video',
 		viewsCount: 4549157,
-		thumbnailUrl: '/uploads/thumbnails/mindless.avif',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/mindless.avif`,
 		slug: 'mindless-k_59yF_5GA',
 		videoFileName: 'mindless.mp4',
 		maxResolution: EnumVideoPlayerQuality['720p'],
@@ -39,7 +40,7 @@ export const TOXXED_VIDEOS = [
 	{
 		title: 'ПОДАЙТЕ СВАГИ',
 		viewsCount: 35513,
-		thumbnailUrl: '/uploads/thumbnails/svaga.avif',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/svaga.avif`,
 		slug: 'svagatfIwl9uJ8hY',
 		videoFileName: 'svaga.mp4',
 		maxResolution: EnumVideoPlayerQuality['720p'],

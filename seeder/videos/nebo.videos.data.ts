@@ -1,11 +1,12 @@
 import { EnumVideoPlayerQuality } from '@/video/dto/video.types'
+import { STORAGE_URL } from 'scripts/storage'
 
 export const HEBO_VIDEOS = [
   {
     title:
       'Alex Warren - Ordinary (Official Video)',
     viewsCount: 429384567,
-    thumbnailUrl: '/uploads/thumbnails/ordinary.avif',
+    thumbnailUrl: `${STORAGE_URL}/thumbnails/ordinary.avif`,
     slug: 'ordinaryFED-UP7K_0NRLCu4',
     videoFileName: 'ordinary.mp4',
     maxResolution: EnumVideoPlayerQuality['480p'],
@@ -22,7 +23,7 @@ export const HEBO_VIDEOS = [
   {
     title: 'Oxxxymiron - Не от мира сего',
     viewsCount: 20938399,
-    thumbnailUrl: '/uploads/thumbnails/oksi.avif',
+    thumbnailUrl: `${STORAGE_URL}/thumbnails/oksi.avif`,
     slug: 'oksi8899uijikjnf',
     videoFileName: 'oksi.mp4',
     maxResolution: EnumVideoPlayerQuality['360p'],

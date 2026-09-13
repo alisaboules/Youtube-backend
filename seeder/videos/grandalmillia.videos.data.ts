@@ -1,47 +1,45 @@
 import { EnumVideoPlayerQuality } from '@/video/dto/video.types'
 import { create } from 'lodash'
+import { STORAGE_URL } from 'scripts/storage'
 
 export const GRANDALMILLIA_VIDEOS = [
 	{
-		title: 'Ленинград — Экспонат',
-		viewsCount: 227867586,
-		thumbnailUrl: '/uploads/thumbnails/leningrad.avif',
-		slug: 'leningrad_oKVkJj6C6Y',
-		videoFileName: 'leningrad.mp4',
+		title: 'ПОШЛАЯ МОЛЛИ - ЛЮБИМАЯ ПЕСНЯ ТВОЕЙ СЕСТРЫ',
+		viewsCount: 27726384,
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/sister.webp`,
+		slug: 'sister_oKVkJj6C6Y',
+		videoFileName: 'sister.mp4',
 		maxResolution: EnumVideoPlayerQuality['720p'],
 		description:
-			'<p>Subscribe: <a href="http://bit.ly/1TRHfHS" target="_blank">http://bit.ly/1TRHfHS</a></p><p>Доступно в iTunes — <a href="http://vk.cc/4FHxB5" target="_blank">http://vk.cc/4FHxB5</a></p><p><a href="http://www.leningrad.top" target="_blank">http://www.leningrad.top</a></p><p>Made and produced by Fancy Shot agency <a href="http://fancyshot.com" target="_blank">fancyshot.com</a></p><p>---</p><p>♪♪ LENINGRAD ♪♪</p><p>iTunes <a href="http://smarturl.it/leningrad" target="_blank">http://smarturl.it/leningrad</a></p><p>Facebook: <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fsosimc" target="_blank">sosimc</a></p><p>VK-Fansite: <a href="http://vk.com/sosimc" target="_blank">http://vk.com/sosimc</a></p><p>VK-Page: <a href="http://vk.com/public23031244" target="_blank">http://vk.com/public23031244</a></p><p>Twitter: <a href="https://x.com/sosimc" target="_blank">sosimc</a></p><p>YouTube: <a href="https://www.youtube.com/shnur0k" target="_blank">shnur0k</a></p><p>Vimeo: <a href="http://vimeo.com/sosimc" target="_blank">http://vimeo.com/sosimc</a></p><p>Instagram: <a href="https://www.instagram.com/leningrad_off" target="_blank">leningrad_off</a></p><p>Режиссер — Анна Пармас</p><p>Продюсер — Дмитрий Муравьев</p><p>Арт директор — Петр Бондаренко</p><p>Оператор постановщик — Антон Жабин</p><p>Главная героиня — Юлия Топольницкая</p>',
+			'<p>POSHLAYA MOLLY – <a href="https://www.poshlayamolly.com" target="_blank">https://www.poshlayamolly.com</a></p><p>Telegram – <a href="https://t.me/poshlayamollyofficial" target="_blank">https://t.me/poshlayamollyofficial</a></p><p>Instagram – <a href="https://www.instagram.com/dropbled" target="_blank">dropbled</a></p><p>Facebook – <a href="https://www.facebook.com/poshlayamollyofficial" target="_blank">poshlayamollyofficial</a></p><p>TikTok – <a href="https://www.tiktok.com/@dropbled" target="_blank">dropbled</a></p><p>VK – <a href="http://www.vk.com/poshlaya_molly" target="_blank">http://www.vk.com/poshlaya_molly</a></p><p>Yana Kryukova <a href="https://www.instagram.com/yanakryukova" target="_blank">yanakryukova</a></p><p>Director: Lyu Chirkova <a href="https://www.instagram.com/lyuart" target="_blank">lyuart</a></p><p>INDIGO FLOW PRODUCTION<br><a href="https://www.indigoflow.space" target="_blank">https://www.indigoflow.space</a></p>',
 		channelSlug: 'grandalmillia',
 		isPublic: true,
 		tags: [
-			'Leningrad',
-			'exhibit',
-			'louboutins',
+			'POSHLAYAMOLLY', 'ПОШЛАЯМОЛЛИ', 'INDIGOFLOW'
 		],
-		createdAt: '2016-01-13T14:30:00Z'
+		createdAt: '2017-09-06T14:30:00Z'
 	},
 	{
-		title: 'Егор Крид - Будильник (премьера клипа, 2015)',
-		viewsCount: 200386877,
-		thumbnailUrl: '/uploads/thumbnails/clock.avif',
-		slug: 'clockJ4bJ118vWKo',
-		videoFileName: 'clock.mp4',
+		title: `KATSEYE 'Gnarly' (4K) | STUDIO CHOOM ORIGINAL`,
+		viewsCount: 41952868,
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/gnarly.webp`,
+		slug: 'gnarlyJ4bJ118vWKo',
+		videoFileName: 'gnarly.mp4',
 		maxResolution: EnumVideoPlayerQuality['1080p'],
 		description:
-			'<p>Скачать трек в iTunes: <a href="http://bit.ly/Budilnik_iTunes" target="_blank">http://bit.ly/Budilnik_iTunes</a></p><p>Скачать трек в Google Play: <a href="http://bit.ly/Budilnik_GooglePlay" target="_blank">http://bit.ly/Budilnik_GooglePlay</a></p><p>----------------------------------------------------------</p><p>Организация концертов:</p><p>Тел.: +7(965) 407-79-94</p><p>E-mail: <a href="mailto:kreedbooking@black-star.ru">kreedbooking@black-star.ru</a></p><p>Концертный график: <a href="http://black-star.ru/concerts/egorkreed/" target="_blank">http://black-star.ru/concerts/egorkreed/</a></p><p>----------------------------------------------------------</p><p>Егор Крид в социальных сетях:</p><p>ВКонтакте: <a href="https://vk.com/egorkreed" target="_blank">https://vk.com/egorkreed</a></p><p>Instagram: <a href="https://www.instagram.com/egorkreed" target="_blank">egorkreed</a></p><p>Twitter: <a href="https://x.com/EgorKreeD" target="_blank">egorkreed</a></p><p>Facebook: <a href="https://www.facebook.com/kreedsmusic" target="_blank">kreedsmusic</a></p><p>OK: <a href="http://ok.ru/officialkreed" target="_blank">http://ok.ru/officialkreed</a></p><p>---------------------------------------­­-----------------</p><p>Director - Zaur Zaseev</p><p>DP - Генрих Медер</p><p>Producer - Korneliya Polyak</p><p>Post production - Hoody FX</p>',
+			`<p>[STUDIO CHOOM ORIGINAL] KATSEYE 'Gnarly'</p><p>Stream various performance video on #STUDIOCHOOM!</p><p>Naver TV: <a href="https://tv.naver.com/cjenm.STUDIOCHOOM" target="_blank">https://tv.naver.com/cjenm.STUDIOCHOOM</a></p>`,
 		channelSlug: 'grandalmillia',
 		isPublic: true,
 		tags: [
-			'clock',
-			'EgorCreed'
+			'STUDIOCHOOM', 'KATSEYE'
 		],
-		createdAt: '2015-12-09T14:30:00Z'
+		createdAt: '2025-05-01T14:30:00Z'
 	},
 	{
 		title:
 			'Славь | Praise - Elevation Worship | Карен Карагян | Слово жизни Music',
 		viewsCount: 751394,
-		thumbnailUrl: '/uploads/thumbnails/word.avif',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/word.avif`,
 		slug: 'wordFbsusu0xfpY',
 		videoFileName: 'word.mp4',
 		maxResolution: EnumVideoPlayerQuality['720p'],
@@ -60,7 +58,7 @@ export const GRANDALMILLIA_VIDEOS = [
 	{
 		title: 'The Kid LAROI, Justin Bieber - STAY (Official Video)',
 		viewsCount: 1118433803,
-		thumbnailUrl: '/uploads/thumbnails/stay.avif',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/stay.avif`,
 		slug: 'stayDJQbLwcJBmI',
 		videoFileName: 'stay.mp4',
 		maxResolution: EnumVideoPlayerQuality['2K'],
@@ -76,28 +74,30 @@ export const GRANDALMILLIA_VIDEOS = [
 		createdAt: '2012-10-12T14:30:00Z'
 	},
 	{
-		title: 'Katy Perry - Dark Horse ft. Juicy J',
-		viewsCount: 422219293,
-		thumbnailUrl: '/uploads/thumbnails/dark_horse.avif',
-		videoFileName: 'dark_horse.mp4',
+		title: 'ПОШЛАЯ МОЛЛИ — ВСЕ ХОТЯТ МЕНЯ ПОЦЕЛОВАТЬ',
+		viewsCount: 7952324,
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/kiss.webp`,
+		videoFileName: 'kiss.mp4',
+		slug: 'kissTvfr6r67guh',
 		maxResolution: EnumVideoPlayerQuality['4K'],
 		description:
-			"<p>Listen to Katy’s new song “Smile”: <a href='https://katy.to/smileID' target='_blank'>https://katy.to/smileID</a></p><p>Get 'Dark Horse' from Katy Perry's 'PRISM': <a href='http://katy.to/PRISM' target='_blank'>http://katy.to/PRISM</a></p><p>Katy Perry Complete Collection on Spotify: <a href='http://katy.to/SpotifyCompleteYD' target='_blank'>http://katy.to/SpotifyCompleteYD</a></p><p>Katy Perry Essentials on Apple Music: <a href='http://katy.to/AMEssentialsYD' target='_blank'>http://katy.to/AMEssentialsYD</a></p><p>Watch your favorite Katy videos on YouTube: <a href='http://katy.to/MusicVideosYD' target='_blank'>http://katy.to/MusicVideosYD</a></p><p>Follow Katy Perry:</p><p>Website: <a href='http://katy.to/WebsiteYD' target='_blank'>http://katy.to/WebsiteYD</a></p><p>Instagram: <a href='http://katy.to/InstagramYD' target='_blank'>http://katy.to/InstagramYD</a></p><p>Twitter: <a href='http://katy.to/TwitterYD' target='_blank'>http://katy.to/TwitterYD</a></p><p>Facebook: <a href='http://katy.to/FacebookYD' target='_blank'>http://katy.to/FacebookYD</a></p><p>Directed by Matthew Cullen &amp; Produced by Dawn Rose, Danny Lockwood, Javier Jimenez, and Derek Johnson</p><p>Lyrics:<br>I knew you were<br>You were gonna come to me<br>And here you are<br>But you better choose carefully<br>‘Cause I am capable of anything<br>Of anything and everything<br>Make me your Aphrodite<br>Make me your one and only<br>But don’t make me your enemy<br>Your enemy, your enemy<br><br>(Pre-Chorus)<br>So you wanna play with magic<br>Boy, you should know what you’re fallin’ for<br>Baby, do you dare to do this<br>‘Cause I’m coming atcha like a dark horse<br><br>(Chorus)<br>Are you ready for, ready for<br>A perfect storm, perfect storm<br>‘Cause once you’re mine, once you’re mine<br>There’s no going back<br><br>Mark my words<br>This love will make you levitate<br>Like a bird<br>Like a bird without a cage<br>But down to earth<br>If you choose to walk away<br>Don’t walk away<br>It’s in the palm of your hand now, baby<br>It’s a yes or a no, no maybe<br>So just be sure<br>Before you give it all to me<br>All to me<br>Give it all to me<br><br>(Pre-Chorus)<br>So you wanna play with magic<br>Boy, you should know what you’re fallin’ for<br>Baby, do you dare to do this<br>‘Cause I’m coming atcha like a dark horse<br><br>(Chorus)<br>Are you ready for, ready for<br>A perfect storm, perfect storm<br>‘Cause once you’re mine, once you’re mine<br>There’s no going back<br><br>(Juicy J)<br>She’s a beast<br>I call her Karma<br>She’ll eat your heart out<br>Like Jeffrey Dahmer<br><br>Be careful<br>Try not to lead her on<br>Shorty heart is on steroids<br>‘Cause her love is so strong<br><br>You may fall in love when you meet her<br>If you get the chance, you better keep her<br>She’s sweet as pie, but if you break her heart<br>She’ll turn cold as a freezer<br><br>That fairy tale ending with a knight in shining armor<br>She can be my Sleeping Beauty<br>I’m gon’ put her in a coma<br><br>Now I think I love her<br>Shorty so bad, sprung and I don’t care<br>She ride me like a roller coaster<br>Turned the bedroom into a fair<br><br>Her love is like a drug<br>I was tryna hit it and quit it<br>But lil’ mama so dope<br>I messed around and got addicted<br><br>(Pre-Chorus)<br>So you wanna play with magic<br>Boy, you should know what you’re fallin’ for<br>Baby, do you dare to do this<br>‘Cause I’m coming atcha like a dark horse<br><br>(Chorus)<br>Are you ready for, ready for<br>A perfect storm, perfect storm<br>‘Cause once you’re mine, once you’re mine<br>There’s no going back</p><p>Music video by Katy Perry performing Dark Horse. (C) 2014 Capitol Records, LLC</p>",
+			'<p>POSHLAYA MOLLY – <a href="https://www.poshlayamolly.com" target="_blank">https://www.poshlayamolly.com</a></p><p>Telegram – <a href="https://t.me/poshlayamollyofficial" target="_blank">https://t.me/poshlayamollyofficial</a></p><p>Instagram – <a href="https://www.instagram.com/dropbled" target="_blank">dropbled</a></p><p>Facebook – <a href="https://www.facebook.com/poshlayamollyofficial" target="_blank">poshlayamollyofficial</a></p><p>TikTok – <a href="https://www.tiktok.com/@dropbled" target="_blank">dropbled</a></p><p>VK – <a href="http://www.vk.com/poshlaya_molly" target="_blank">http://www.vk.com/poshlaya_molly</a></p><p>Режиссер: Никита Квасников <a href="https://www.instagram.com/nikitakvasnikov" target="_blank">nikitakvasnikov</a></p><p>Оператор-постановщик: Саша Петроченко</p><p>Гаффер: Леонид Сидоренко</p><p>Мейкап: Джулия Мельник <a href="https://www.instagram.com/juliyamelnik" target="_blank">juliyamelnik</a></p><p>Post Production: Basket Films &amp; Dee Design <a href="https://www.instagram.com/basket_films" target="_blank">basket_films</a>, <a href="https://www.instagram.com/deewhite_pb" target="_blank">deewhite_pb</a></p><p>Сведение и мастеринг: Константин Пыжов <a href="https://www.instagram.com/konstantin_pyzhov" target="_blank">konstantin_pyzhov</a></p>',
 		channelSlug: 'grandalmillia',
 		isPublic: true,
-		tags: ['KatyPerry', 'DarkHorse', 'JuicyJ'],
-		createdAt: '2014-02-21T14:30:00Z'
+		tags: ['POSHLAYAMOLLY', 'ПОШЛАЯМОЛЛИ'],
+		createdAt: '2018-05-01T14:30:00Z'
 	},
 	{
-		title: 'Алексей Воробьёв - Сумасшедшая',
-		viewsCount: 395382469,
-		thumbnailUrl: '/uploads/thumbnails/crazy.avif',
-		videoFileName: 'crazy.mp4',
+		title: 'Shakira - Whenever, Wherever (Official HD Video)',
+		viewsCount: 916446446,
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/shakira.webp`,
+		videoFileName: 'shakira.mp4',
+		slug: "shakiraGVtjtj",
 		maxResolution: EnumVideoPlayerQuality['360p'],
-		description: '<p>Уникальная музыкальная викторина StarPro: <a href="http://lp.advmusic.com/starpro/quiz" target="_blank">http://lp.advmusic.com/starpro/quiz</a></p><p>Переходи и играй!</p><p>Подписывайся на лучшие клипы #StarPro :<br>Youtube <a href="http://bit.ly/joinstarpro" target="_blank">http://bit.ly/joinstarpro</a><br>ВКонтакте <a href="http://vk.com/starpro" target="_blank">http://vk.com/starpro</a><br>Одноклассники <a href="http://www.odnoklassniki.ru/starpro" target="_blank">http://www.odnoklassniki.ru/starpro</a></p><p>iTunes: <a href="http://rlu.ru/oiJu" target="_blank">http://rlu.ru/oiJu</a><br><a href="http://rlu.ru/oiJK" target="_blank">http://rlu.ru/oiJK</a></p><p>Google Play <a href="http://rlu.ru/oiNZ" target="_blank">http://rlu.ru/oiNZ</a></p><p>Music / lyrics ALEX SPARROW</p><p>VIDEO - Written &amp; directed by ALEX SPARROW</p><p>Artist signed to the multiple GRAMMY wining producer RedOne</p><p>To watch english version - <a href="https://www.youtube.com/watch?v=Kp7jX9EJCfo" target="_blank">Alex Sparrow - SHE IS CRAZY BUT SHE IS MINE ...</a></p><p>"Сумасшедшая"- слова, музыка, аранжировка- Алексей Воробьев</p><p>Режиссер клипа, монтаж - Алексей Воробьев</p><p>В клипе снимались - Полина Максимова и Сергей Романович</p><p>Саксофон - Александр Косилов</p><p>Гитарист - Владимир Сажин</p><p>Guest Star - пёс Элвис-Мэлвис</p><p>Художник-постановщик - Артем Купина</p><p>Продюсер - Луиза Бекова</p><p>FaceBook <a href="https://www.facebook.com/AlexeySparrow" target="_blank">alexeysparrow</a></p><p>Instagram <a href="https://www.instagram.com/mr.alexsparrow/" target="_blank">mr.alexsparrow</a></p><p>Twitter <a href="https://x.com/Alex_Sparrow_" target="_blank">alex_sparrow_</a></p><p>VKontakte <a href="http://vk.com/alexeysparrow" target="_blank">http://vk.com/alexeysparrow</a></p><p>Первое Музыкальное Издательство обладает правами на весь Мир исключительно на русскоязычную версию клипа.</p><p>The LLC First music Publishing (Russia) has an exclusive worldwide license to the Russian version of the music video “She is crazy but she is mine”.</p>',
+		description: `<p>Official HD Video "Whenever, Wherever" by Shakira</p><p>Shakira's new album, Las Mujeres Ya No Lloran, out now!<br>Listen at <a href="https://SML.lnk.to/LMYNL" target="_blank">https://SML.lnk.to/LMYNL</a></p><p>Listen to Shakira: <a href="https://Shakira.lnk.to/listen_YD" target="_blank">https://Shakira.lnk.to/listen_YD</a><br>Watch more videos by Shakira: <a href="https://Shakira.lnk.to/listen_YD/youtube" target="_blank">https://Shakira.lnk.to/listen_YD/youtube</a></p><p>Subscribe to the official Shakira YouTube channel: <a href="https://Shakira.lnk.to/subscribeYD" target="_blank">https://Shakira.lnk.to/subscribeYD</a></p><p>More from Shakira<br>Gypsy:    • Shakira - Gypsy (Official Video)<br>Whenever, Wherever:    • Shakira - Whenever, Wherever (Official HD ...<br>Can't Remember To Forget You:    • Shakira - Can't Remember to Forget You (Of...</p><p>Follow Shakira<br>Facebook: <a href="https://Shakira.lnk.to/followFI" target="_blank">https://Shakira.lnk.to/followFI</a><br>Instagram: <a href="https://Shakira.lnk.to/followII" target="_blank">https://Shakira.lnk.to/followII</a><br>Twitter: <a href="https://Shakira.lnk.to/followTI" target="_blank">https://Shakira.lnk.to/followTI</a><br>TikTok: <a href="https://Shakira.lnk.to/followYx" target="_blank">https://Shakira.lnk.to/followYx</a><br>Website: <a href="https://Shakira.lnk.to/followWI" target="_blank">https://Shakira.lnk.to/followWI</a><br>Spotify: <a href="https://Shakira.lnk.to/followSI" target="_blank">https://Shakira.lnk.to/followSI</a><br>YouTube: <a href="https://Shakira.lnk.to/subscribeYD" target="_blank">https://Shakira.lnk.to/subscribeYD</a></p><p>Ask your voice device to play Shakira!</p><p>Lyrics:<br>Whenever, wherever<br>We're meant to be together<br>I'll be there and you'll be near<br>And that's the deal, my dear<br>Thereover, hereunder<br>You'll never have to wonder<br>We can always play by ear<br>But that's the deal, my dear</p><p>#Shakira #WheneverWherever #Pop #HD #Remastered</p><p>-</p><p>Vídeo oficial HD de Shakira de su tema “Whenever, Wherever”<br>Haz clic aquí para escuchar a Shakira: <a href="https://Shakira.lnk.to/listen_YD" target="_blank">https://Shakira.lnk.to/listen_YD</a><br>Haz clic aquí para ver más vídeos de Shakira:<br><a href="https://Shakira.lnk.to/listen_YD/youtube" target="_blank">https://Shakira.lnk.to/listen_YD/youtube</a></p><p>Suscríbete al canal de Shakira en YouTube: <a href="https://Shakira.lnk.to/subscribeYD" target="_blank">https://Shakira.lnk.to/subscribeYD</a></p><p>Sigue a Shakira<br>Facebook: <a href="https://Shakira.lnk.to/followFI" target="_blank">https://Shakira.lnk.to/followFI</a><br>Instagram: <a href="https://Shakira.lnk.to/followII" target="_blank">https://Shakira.lnk.to/followII</a><br>Twitter: <a href="https://Shakira.lnk.to/followTI" target="_blank">https://Shakira.lnk.to/followTI</a><br>TikTok: <a href="https://Shakira.lnk.to/followYx" target="_blank">https://Shakira.lnk.to/followYx</a><br>Página Web: <a href="https://Shakira.lnk.to/followWI" target="_blank">https://Shakira.lnk.to/followWI</a><br>Spotify: <a href="https://Shakira.lnk.to/followSI" target="_blank">https://Shakira.lnk.to/followSI</a><br>YouTube: <a href="https://Shakira.lnk.to/subscribeYD" target="_blank">https://Shakira.lnk.to/subscribeYD</a></p><p>¡Pídele a tu dispositivo de voz que ponga Shakira!</p><p>Letras:<br>Whenever, wherever<br>We're meant to be together<br>I'll be there and you'll be near<br>And that's the deal, my dear<br>Thereover, hereunder<br>You'll never have to wonder<br>We can always play by ear<br>But that's the deal, my dear</p>`,
 		channelSlug: 'grandalmillia',
 		isPublic: true,
-		tags: ['Сумасшедшая', 'StarPro'],
-		createdAt: '2015-08-30T14:30:00Z'
+		tags: ['Shakira', 'WheneverWherever', 'Remastered'],
+		createdAt: '2009-04-10T14:30:00Z'
 	}
 ]

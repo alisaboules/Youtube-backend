@@ -1,10 +1,11 @@
 import { EnumVideoPlayerQuality } from '@/video/dto/video.types'
+import { STORAGE_URL } from 'scripts/storage'
 
 export const ZHABKA_VIDEOS = [
   {
     title: '2hollis - poster boy (Slowed Reverb) (Best part) (Versión Tik Tok) Chico lachowski',
     viewsCount: 8984521,
-    thumbnailUrl: '/uploads/thumbnails/posteyboy.avif',
+    thumbnailUrl: `${STORAGE_URL}/thumbnails/posteyboy.avif`,
     slug: 'posteyboy7K_0NRLCu4',
     videoFileName: 'posteyboy.mp4',
     maxResolution: EnumVideoPlayerQuality['480p'],
@@ -21,7 +22,7 @@ export const ZHABKA_VIDEOS = [
   {
     title: 'NEON PULSE',
     viewsCount: 77683,
-    thumbnailUrl: '/uploads/thumbnails/neon.avif',
+    thumbnailUrl: `${STORAGE_URL}/thumbnails/neon.avif`,
     slug: 'neonh33594a6af3f',
     videoFileName: 'neon.mp4',
     maxResolution: EnumVideoPlayerQuality['1080p'],

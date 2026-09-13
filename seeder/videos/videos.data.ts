@@ -5,6 +5,7 @@ import { GRANDALMILLIA_VIDEOS } from './grandalmillia.videos.data'
 import { HEBO_VIDEOS } from './nebo.videos.data'
 import { NICKTOONS_VIDEOS } from './nicktoons.videos.data'
 import { ZHABKA_VIDEOS } from './zhabka.videos.data'
+import { STORAGE_URL } from 'scripts/storage'
 
 export const VIDEOS = [
 	...HEBO_VIDEOS,
@@ -16,9 +17,9 @@ export const VIDEOS = [
 	{
 		title: 'Frankyeffe & MOTVS - Fall Down',
 		viewsCount: 12992,
-		thumbnailUrl: '/uploads/thumbnails/-2maTnnyfVc-MQ.jpg',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/-2maTnnyfVc-MQ.jpg`,
 		videoFileName: '0e9f86b38cdb.mp4',
-		maxResolution: EnumVideoPlayerQuality['1080p'],
+		maxResolution: EnumVideoPlayerQuality['480p'],
 		description:
 			'<p>Stream/Download "Fall Down" now: <a href="https://revr.ec/FALLDOWN" target="_blank">https://revr.ec/FALLDOWN</a></p><p>Our techno rave playlist: <a href="https://maddix.life/playlist" target="_blank">https://maddix.life/playlist</a></p><p>Follow @Maddix<br>Website: <a href="https://maddixmusic.com" target="_blank">https://maddixmusic.com</a><br>Instagram: <a href="https://instagram.com/maddixmusic" target="_blank">/ maddixmusic</a><br>Spotify: <a href="https://maddix.life/spotify" target="_blank">https://maddix.life/spotify</a><br>TikTok: <a href="https://tiktok.com/@maddixmusic" target="_blank">/ maddixmusic</a><br>Twitter: <a href="https://twitter.com/maddixmusic" target="_blank">/ maddixmusic</a><br>Facebook: <a href="https://facebook.com/maddixmusic" target="_blank">/ maddixmusic</a></p><p>Follow EXTATIC Records:<br>Website: <a href="https://www.extaticrecords.com" target="_blank">https://www.extaticrecords.com</a><br>Instagram: <a href="https://instagram.com/extaticrecords" target="_blank">/ extaticrecords</a><br>Facebook: <a href="https://facebook.com/extaticrecords" target="_blank">/ extaticrecords</a><br>Soundcloud: <a href="https://soundcloud.com/extaticrecords" target="_blank">/ extaticrecords</a></p>',
 		channelSlug: 'shakemusic',
@@ -30,7 +31,7 @@ export const VIDEOS = [
 		title:
 			'My 2024 Cozy Desk Setup | Standing Desk, Ergonomic Chair, 5K Monitor, Desk Accessories, Zen & Earthy',
 		viewsCount: 174175,
-		thumbnailUrl: '/uploads/thumbnails/nfJKsQNcZWo-MQ.jpg',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/nfJKsQNcZWo-MQ.jpg`,
 		videoFileName: '2ada0ace97d5.mp4',
 		maxResolution: EnumVideoPlayerQuality['1080p'],
 		description:
@@ -49,9 +50,9 @@ export const VIDEOS = [
 	{
 		title: 'НАСТАВНИК ПО БИЗНЕСУ #1 АВТОМОЙКА ПОПАЛА НА ТАЙМСКВЕР',
 		viewsCount: 104053,
-		thumbnailUrl: '/uploads/thumbnails/4lwwwt4QXqE-MQ.jpg',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/4lwwwt4QXqE-MQ.jpg`,
 		videoFileName: '7924f3132f0c.mp4',
-		maxResolution: EnumVideoPlayerQuality['1080p'],
+		maxResolution: EnumVideoPlayerQuality['720p'],
 		description:
 			'В этом выпуске я отправился на окраину Петербурга и превратил обычную Автомойку в бизнес мирового масштаба. А лицо Стас Костюшкина впервые украсило ТаймСквер.',
 		channelSlug: 'kuruchbro',
@@ -62,7 +63,7 @@ export const VIDEOS = [
 	{
 		title: 'The 10 Best PS5 Accessories Worth Buying!',
 		viewsCount: 97212,
-		thumbnailUrl: '/uploads/thumbnails/ibqj6xGdi3M-MQ.jpg',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/ibqj6xGdi3M-MQ.jpg`,
 		videoFileName: '97cce9f49787.mp4',
 		maxResolution: EnumVideoPlayerQuality['1080p'],
 		description:
@@ -82,7 +83,7 @@ export const VIDEOS = [
 	{
 		title: 'John Summit Live @ Madison Square Garden',
 		viewsCount: 575550,
-		thumbnailUrl: '/uploads/thumbnails/M4aaRoLDWsc-MQ.jpg',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/M4aaRoLDWsc-MQ.jpg`,
 		videoFileName: '0d9aaca6a564.mp4',
 		maxResolution: EnumVideoPlayerQuality['1080p'],
 		description:
@@ -102,7 +103,7 @@ export const VIDEOS = [
 	{
 		title: 'Above The Neon City - 12 Hours - 4K Ultra HD 60fps',
 		viewsCount: 58181,
-		thumbnailUrl: '/uploads/thumbnails/pwuFTsvJL34-MQ.jpg',
+		thumbnailUrl: `${STORAGE_URL}/thumbnails/pwuFTsvJL34-MQ.jpg`,
 		videoFileName: 'a501e9639efa.mp4',
 		maxResolution: EnumVideoPlayerQuality['1080p'],
 		description:
