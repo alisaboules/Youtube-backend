@@ -15,7 +15,7 @@ export class RefreshTokenService {
 			path: '/',
 			expires: expiresIn,
 			secure: true, // true if production
-			sameSite: 'lax' // lax if production
+			sameSite: 'none' // lax if production
 		})
 	}
 
@@ -25,7 +25,7 @@ export class RefreshTokenService {
 			path: '/',
 			expires: new Date(0),
 			secure: true, // true if production
-			sameSite: 'lax' // lax if production
+			sameSite: 'none' // lax if production
 		})
 	}
 }
